@@ -1,0 +1,105 @@
+{
+  "id": "39dccf6b-39eb-4548-89c6-47ed10b3aed0",
+  "version": "2.0",
+  "name": "Amazon",
+  "url": "https://www.amazon.in",
+  "tests": [{
+    "id": "f7b137a7-8e17-4a05-b074-6f4b4af2bc9f",
+    "name": "Amazon Test",
+    "commands": [{
+      "id": "f26ad49a-e7ca-4e77-a377-9596107494f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45c50076-e487-4c63-8d2e-d1bab9881f0b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a1bc02f-0196-4857-b4e8-7dc3f1904082",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "244a181d-1d28-4fdc-a2df-e55a9daa8c8d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "baa21cea-6c01-4e36-9503-e8dc676a29f0",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "iphone 14 pro"
+    }, {
+      "id": "3c35a9f8-a7d5-4f0f-a987-0b5611146aa7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6aa73c88-944f-497c-83af-a7d502879aed",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Amazon.in : iphone 14 pro",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79d841ba-973c-49b3-a2a0-780ab5f8b4ad",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e00ea678-adab-4bd9-ad43-90b2d21d24a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}
